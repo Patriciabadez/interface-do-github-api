@@ -10,7 +10,6 @@ const Router = () => {
     return(
         <BrowserRouter>
         <Header/>
-        <h1>Patricia</h1>
         <Routes>
             <Route path='/' element ={<Profile />}/>
             <Route path='/:username' element ={<Profile />}/>
