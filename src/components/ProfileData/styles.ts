@@ -12,9 +12,7 @@ align-items: center;
         font-size:26px;
         line-height: 1.25;
         color: var(--gray-dark);
-        font-weight: 600;
-       
-        
+        font-weight: 600;   
     }
     >h2 {
         font-size: 20px;
@@ -25,6 +23,10 @@ align-items: center;
 @media (min-width:768px){
     flex-direction: column;
     align-items:flex-start;
+    > div {
+        margin-left:0;
+        margin-top: 16px;
+    }
 }
 `
 export const Avatar = styled.img`
