@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const Container = styled.div`
     display:flex;
     flex-direction: column;
-    /* align-items: flex-end; */
+    align-items: flex-end;
     overflow: hidden;
 
     padding: 16px 20px 0 10px;
@@ -27,5 +27,12 @@ export const Container = styled.div`
             fill: var(--calendar-scale-4);
         }
         width: 883px;
+    }
+    span {
+        font-size:11px;
+        color:var(--link);
+        margin-top: -25px;
+        margin-left: 7px;
+        padding-bottom: 16px;
     }
 `;
