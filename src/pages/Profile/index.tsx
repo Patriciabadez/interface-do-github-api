@@ -1,8 +1,8 @@
 import React from 'react'
-import { Container, Main, LeftSide, RightSide, Repos, CalendarHeding } from './styles'
+import { Container, Main, LeftSide, RightSide, Repos, CalendarHeading } from './styles'
 import  ProfileData  from '../../components/ProfileData';
-import RepoCard from '../../components/RepoCard'
-import RandomCalendar from '../../components/RandomCalendar'
+import RepoCard from '../../components/RepoCard';
+import RandomCalendar from '../../components/RandomCalendar';
 
 
 const Profile = () => {
@@ -40,9 +40,9 @@ const Profile = () => {
                             ))}
                         </div>
                     </Repos>
-                    <CalendarHeding>
+                    <CalendarHeading>
                     440 contributions in the last year
-                    </CalendarHeding>
+                    </CalendarHeading>
                     <RandomCalendar/>
 
                 </RightSide>
